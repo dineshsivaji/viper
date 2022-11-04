@@ -878,4 +878,3 @@ No, you will need to synchronize access to the viper yourself (for example by us
 
 ## Troubleshooting
 
-See [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
