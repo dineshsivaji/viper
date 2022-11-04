@@ -6,11 +6,11 @@ linters-settings:
         sections:
             - standard
             - default
-            - prefix(github.com/spf13/viper)
+            - prefix(github.com/dineshsivaji/viper)
     golint:
         min-confidence: 0
     goimports:
-        local-prefixes: github.com/spf13/viper
+        local-prefixes: github.com/dineshsivaji/viper
 
 linters:
     disable-all: true

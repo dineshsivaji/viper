@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: ❓ Ask a question
-    url: https://github.com/spf13/viper/discussions/new?category=q-a
-    about:  Ask and discuss questions with other Viper community members
+    url: https://github.com/dineshsivaji/viper/discussions/new?category=q-a
+    about: Ask and discuss questions with other Viper community members
 
   - name: 📓 Reference
-    url: https://pkg.go.dev/mod/github.com/spf13/viper
+    url: https://pkg.go.dev/mod/github.com/dineshsivaji/viper
     about: Check the Go code reference
 
   - name: 💬 Slack channel
