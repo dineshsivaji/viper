@@ -67,7 +67,8 @@ func (c *Codec) Decode(b []byte, v map[string]interface{}) error {
 
 		// recursively build nested maps
 		path := strings.Split(key, c.keyDelimiter())
-		lastKey := strings.ToLower(path[len(path)-1])
+		// lastKey := strings.ToLower(path[len(path)-1])
+		lastKey := path[len(path)-1]
 		deepestMap := deepSearch(v, path[0:len(path)-1])
 
 		// set innermost value
